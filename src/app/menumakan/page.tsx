@@ -2,8 +2,9 @@
 import React from 'react'
 
 
-import Card from '../komponen/cards';
+import Card from '../komponen/cardMakanan';
 import DefaultCarousel from '../komponen/carousel';
+import CardMakanan from '../komponen/cardMakanan';
 
 
 export default function page() {
@@ -17,18 +18,12 @@ export default function page() {
                     Foods
                 </h1>
             </div>
-            <div className='grid grid-cols-4 pr-20'>
-                <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
-                <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
-                <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
-                <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
+            <div className='mt-10'>
+                <CardMakanan />
 
             </div>
-            <div className='grid grid-cols-4 mt-60  mb-[370px] pr-20'>
-                <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
-                <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
-                <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
-                <Card img={"assets//burger1.png"} judul={"Burger Beef"} isi={"2 layers of Beef and a Layer of Cheese which is very melting"} />
+            <div className=''>
+                <CardMakanan />
             </div>
 
         </div>
