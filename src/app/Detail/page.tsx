@@ -1,5 +1,6 @@
+'use client';
 import React from 'react'
-import Card from '../komponen/cardMakanan'
+import CardMakanan from '../komponen/cardMakanan'
 
 const page = () => {
     return (
@@ -26,11 +27,8 @@ const page = () => {
                 </div>
             </div>
             <div>
-                <div className="grid grid-cols-4 mb-[370px] pr-20">
-                    <Card img={"assets//coffe1.png"} judul={"Latte"} isi={"Espresso + Susu segar"} />
-                    <Card img={"assets//es kopi.png"} judul={"Caramel Latte"} isi={"Espresso + Susu segar + caramel"} />
-                    <Card img={"assets//coffe1.png"} judul={"Latte"} isi={"Espresso + Susu segar"} />
-                    <Card img={"assets//es kopi.png"} judul={"Caramel Latte"} isi={"Espresso + Susu segar + caramel"} />
+                <div className="">
+                    < CardMakanan />
                 </div>
             </div>
             <div className="flex justify-center items-center mt-[10px] mb-[150px]">
