@@ -17,9 +17,6 @@ const page = () => {
             <div className="">
                 <CardCemilan />
             </div>
-            <div className="">
-                <CardCemilan />
-            </div>
         </div>
     )
 }
