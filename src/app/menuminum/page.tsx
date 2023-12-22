@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../komponen/cardMakanan'
 import DefaultCarousel from '../komponen/carousel'
+import CardMinuman from '../komponen/CardMinuman'
 
 const page = () => {
     return (
@@ -13,17 +14,8 @@ const page = () => {
                     Drinks
                 </h1>
             </div>
-            <div className="grid grid-cols-4 pr-20">
-                <Card img={"assets//coffe1.png"} judul={"Latte"} isi={"Espresso + Susu segar"} />
-                <Card img={"assets//es kopi.png"} judul={"Caramel Latte"} isi={"Espresso + Susu segar + caramel"} />
-                <Card img={"assets//coffe1.png"} judul={"Latte"} isi={"Espresso + Susu segar"} />
-                <Card img={"assets//es kopi.png"} judul={"Caramel Latte"} isi={"Espresso + Susu segar + caramel"} />
-            </div>
-            <div className="grid grid-cols-4 mb-[370px] mt-60 pr-20">
-                <Card img={"assets//coffe1.png"} judul={"Latte"} isi={"Espresso + Susu segar"} />
-                <Card img={"assets//es kopi.png"} judul={"Caramel Latte"} isi={"Espresso + Susu segar + caramel"} />
-                <Card img={"assets//coffe1.png"} judul={"Latte"} isi={"Espresso + Susu segar"} />
-                <Card img={"assets//es kopi.png"} judul={"Caramel Latte"} isi={"Espresso + Susu segar + caramel"} />
+            <div className="">
+                <CardMinuman />
             </div>
         </div>
     )
