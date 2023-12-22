@@ -22,10 +22,6 @@ export default function page() {
                 <CardMakanan />
 
             </div>
-            <div className=''>
-                <CardMakanan />
-            </div>
-
         </div>
     )
 }
