@@ -86,41 +86,41 @@ const Signup = () => {
             <form onSubmit={handleSubmit}>
 
                 <div>
-                    <div className='grid grid-cols-2 p-24'>
-                        <div className='h-[600px] w-[450px] border-solid border-[3px] border-red-900 mb-[370px] rounded-[27px]'>
+                    <div className='grid grid-cols-2 p-[100px]'>
+                        <div className='h-[700px] w-[450px] border-solid border-[3px] border-red-900 mb-[370px] rounded-[27px]'>
                             <p className='text-3xl font-bold text-center p-[50px]'>Register</p>
                             <div className='pl-10'>
-                                <p className='font-bold text-lg pb-3'>Name:</p>
+                                <p className='font-bold text-ls pb-px'>Name:</p>
                                 <div className=''>
-                                    <input required type="text" placeholder='Type Here' ref={namaRef} color='bg-transparent' className='rounded-2xl w-[350px] border-slate-300 input'
+                                    <input required type="text" placeholder='Type Here' ref={namaRef} color='bg-transparent' className='rounded-xl w-[350px] border-slate-300 input'
                                         onChange={(e) => setNama(e.target.value)}
                                     />
 
-                                    <p className='font-bold text-lg pb-3 pt-8'>Telephone:</p>
+                                    <p className='font-bold text-ls pb-px pt-8'>Telephone:</p>
                                     <div className=''>
-                                        <input required type="text" placeholder='Type Here' ref={nomorRef} color='bg-transparent' className='rounded-2xl w-[500px] border-slate-300 input'
+                                        <input required type="text" placeholder='Type Here' ref={nomorRef} color='bg-transparent' className='rounded-xl w-[350px] border-slate-300 input'
                                             onChange={(e) => setNomor(e.target.value)}
                                         />
 
-                                        <p className='font-bold text-lg pb-3 pt-8'>Tanggal Lahir:</p>
+                                        <p className='font-bold text-ls pb-px pt-8'>Tanggal Lahir:</p>
                                         <div className=''>
-                                            <Datepicker className='w-[500px] border-slate-300 rounded-2xl' language='in-id' />
+                                            <Datepicker className='w-[350px] border-slate-300 rounded-xl' language='in-id' />
 
-                                            <p className='font-bold text-lg pb-3 pt-8'>Email:</p>
+                                            <p className='font-bold text-ls pb-px pt-8'>Email:</p>
                                             <div className=''>
-                                                <input required type='text' placeholder='Type Here' ref={emailRef} color='bg-transparent' className='rounded-2xl w-[500px] border-slate-300 input'
+                                                <input required type='text' placeholder='Type Here' ref={emailRef} color='bg-transparent' className='rounded-xl w-[350px] border-slate-300 input'
                                                     onChange={(e) => setEmail(e.target.value)}
                                                 />
 
-                                                <p className='font-bold text-lg pb-3 pt-8'>Password:</p>
+                                                <p className='font-bold text-ls pb-px pt-8'>Password:</p>
                                                 <div className=''>
-                                                    <input required type='password' placeholder='Type Here' ref={passwordRef} color='bg-transparent' className='rounded-2xl w-[500px] border-slate-300 input' />
+                                                    <input required type='password' placeholder='Type Here' ref={passwordRef} color='bg-transparent' className='rounded-xl w-[350px] border-slate-300 input' />
 
 
                                                 </div>
                                             </div>
 
-                                            <div className="p-10 pl-[150px]">
+                                            <div className="p-10 pl-[70px]">
                                                 <div className="bg-red-900 h-10 w-60 rounded-2xl text-center pt-1">
                                                     <button className="text-italic text-xl text-slate-100"
                                                         type='submit'>Submit</button>
@@ -135,7 +135,7 @@ const Signup = () => {
                             <div>
                             </div>
                         </div>
-                        <img className='pt-64 translate-x-[150px]' src="assets//logo.png" />
+                        <img className='pt-64 -translate-y-[160px]' src="assets//logo.png" />
                     </div>
                 </div>
             </form>

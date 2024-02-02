@@ -1,8 +1,7 @@
-import Image from 'next/image'
-
 'use client';
 
 import { Navbar } from 'flowbite-react';
+import Image from 'next/image'
 
 export default function DefaultNavbar() {
     return (
@@ -20,11 +19,7 @@ export default function DefaultNavbar() {
                     Help Center
                 </Navbar.Link>
                 <div className='bg-red-900 h-8 w-20 rounded '>
-                    <Navbar.Link className='text-2xl font-bold text-slate-100 text-center' href="/Login">Login
-                    </Navbar.Link>
-                </div>
-                <div className='bg-red-900 h-8 w-20 rounded '>
-                    <Navbar.Link className='text-2xl font-bold text-slate-100 text-center' href="/logout">Logout
+                    <Navbar.Link className='text-2xl font-bold text-slate-100 text-center' href="/Logout">Login
                     </Navbar.Link>
                 </div>
 
