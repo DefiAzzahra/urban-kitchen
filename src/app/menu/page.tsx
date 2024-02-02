@@ -1,6 +1,7 @@
+'use client';
 import React from 'react'
 import DefaultCarousel from '../komponen/carousel'
-import Card from '../komponen/cards'
+import Card from '../komponen/cardMakanan'
 import Burger from '../komponen/Burger'
 import Link from 'next/link'
 import Kopi from '../komponen/Kopi'
