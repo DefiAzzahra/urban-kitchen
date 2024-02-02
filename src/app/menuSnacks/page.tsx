@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Card from '../komponen/cardMakanan'
 import DefaultCarousel from '../komponen/carousel'
