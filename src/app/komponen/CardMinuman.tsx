@@ -1,3 +1,4 @@
+'use state';
 import { QuerySnapshot, collection, getDoc, getDocs } from 'firebase/firestore';
 import React, { useEffect, useState } from 'react'
 import { db } from '../../../lib/firebase/page';
