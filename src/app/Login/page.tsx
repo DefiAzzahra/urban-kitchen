@@ -3,7 +3,6 @@ import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useRouter } from 'next/navigation';
 import React, { FormEvent, useState } from 'react'
 import { auth } from '../../../lib/firebase/page';
-import { Button } from 'flowbite-react';
 
 const page = () => {
 
