@@ -23,6 +23,10 @@ export default function DefaultNavbar() {
                     <Navbar.Link className='text-2xl font-bold text-slate-100 text-center' href="/Login">Login
                     </Navbar.Link>
                 </div>
+                <div className='bg-red-900 h-8 w-20 rounded '>
+                    <Navbar.Link className='text-2xl font-bold text-slate-100 text-center' href="/logout">Logout
+                    </Navbar.Link>
+                </div>
 
             </Navbar.Collapse>
             <a href="/keranjang">
