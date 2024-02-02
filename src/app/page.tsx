@@ -1,7 +1,4 @@
-'use client'
-
-
-
+'use client';
 import CardCemilan from "./komponen/CardCemilan";
 import CardMinuman from "./komponen/CardMinuman";
 import CardMakanan from "./komponen/cardMakanan";
