@@ -8,11 +8,12 @@ const page = () => {
             <div className='grid grid-cols-2'>
                 <div className=' w-64 h-96 ml-40 mb-[10px] mt-20 '>
                     <div className='bg-inherit border-solid border-[3px] border-red-900 rounded-[17px]  w-full h-56 items-center'>
-                        <img src='assets//burger1.png' className="h-40 w-44 ml-10 mt-4 flex items-center" />
+                        <img src='assets//nasi.png' className="h-40 w-44 ml-10 mt-4 flex items-center" />
                     </div></div>
                 <div className=''>
-                    <p className="text-black font-bold text-4xl pt-20 ml-12 -translate-x-[150px]">RP.100.000</p>
-                    <p className="-translate-x-[150px] pt-14 ml-12">Beef Burger (Roti + Daging patty sapi + salad + extra saus)</p>
+                    <h1 className='text-black font-bold text-4xl pt-20 ml-12 -translate-x-[150px]'>Nasi ayam bakar</h1>
+                    <p className="text-black font-bold text-2xl pt-10 ml-12 -translate-x-[150px]">RP.100.000</p>
+                    <p className="-translate-x-[150px] ml-12">ayam bakar + nasi + sambal + sambal + lalapan + (gratis minum)</p>
                     <div>
                         <div className='bg-red-900 h-10 w-72 mt-10 rounded-3xl text-center pt-1 -translate-x-[118px]'>
                             <a className="text-italic text-2xl text-slate-100 " href="/keranjang"> + Keranjang</a>

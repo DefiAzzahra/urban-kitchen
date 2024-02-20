@@ -72,7 +72,7 @@ export default function page() {
 
                             <div className='pl-48'>
 
-                                <a href="/payment">
+                                <a href="/DeliveryDetail">
                                     <p className='w-44 bg-red-900 text-slate-100 text-center bg-inherit border-solid border-[2px] rounded-[8px] text-xl'>CheckOut</p>
                                 </a>
                             </div>

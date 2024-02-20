@@ -5,6 +5,7 @@ import CardMakanan from "./komponen/cardMakanan";
 import Card from "./komponen/cardMakanan";
 import DefaultCarousel from "./komponen/carousel";
 
+
 export default function Home() {
   return (
     <div>
